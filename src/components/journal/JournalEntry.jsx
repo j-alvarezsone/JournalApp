@@ -1,10 +1,10 @@
 import React from 'react';
 
-const JornalEntry = () => {
+const JournalEntry = () => {
   return (
-    <div className='jornal__entry pointer'>
+    <div className='journal__entry pointer'>
       <div
-        className='jornal__entry-picture'
+        className='journal__entry-picture'
         style={{
           backgroundSize: 'cover',
           backgroundImage:
@@ -13,14 +13,14 @@ const JornalEntry = () => {
         }}
       ></div>
 
-      <div className='jornal__entry-body'>
-        <p className='jornal__entry-title'>Un nuevo día</p>
-        <p className='jornal__entry-content'>
+      <div className='journal__entry-body'>
+        <p className='journal__entry-title'>Un nuevo día</p>
+        <p className='journal__entry-content'>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, veritatis.
         </p>
       </div>
 
-      <div className='jornal__entry-date-box'>
+      <div className='journal__entry-date-box'>
         <span>Monday</span>
         <h4>28</h4>
       </div>
@@ -28,4 +28,4 @@ const JornalEntry = () => {
   );
 };
 
-export default JornalEntry;
+export default JournalEntry;

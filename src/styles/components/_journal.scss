@@ -42,7 +42,7 @@
   overflow-y: auto;
 }
 
-.jornal__entry {
+.journal__entry {
   background: white;
   border-radius: 4px;
   color: $dark-grey;
@@ -51,25 +51,25 @@
   overflow: hide;
 }
 
-.jornal__entry-picture {
+.journal__entry-picture {
   height: 75px;
   width: 75px;
 }
 
-.jornal__entry-body {
+.journal__entry-body {
   padding: 10px;
 }
 
-.jornal__entry-title {
+.journal__entry-title {
   font-size: 14px;
   font-weight: bold;
 }
 
-.jornal__entry-content {
+.journal__entry-content {
   font-size: 10px;
 }
 
-.jornal__entry-date-box {
+.journal__entry-date-box {
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -77,6 +77,6 @@
   padding: 5px;
 }
 
-.jornal__entry-date-box span {
+.journal__entry-date-box span {
   font-size: 12px;
 }
