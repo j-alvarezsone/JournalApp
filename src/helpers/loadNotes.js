@@ -2,7 +2,7 @@ import { db } from '../firebase/firebase-config';
 import { types } from '../types/types';
 
 export const loadNotes = async (uid) => {
-  const notesSnap = await db.collection(`${uid}/journal/notes`).get();
+  const notesSnap = await db.collection(`${uid}/journal/notes`).orderBy('date').get();
   const notes = [];
 
   notesSnap.forEach((snapHijo) => {
